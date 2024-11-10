@@ -1,7 +1,3 @@
-# provider "aws" {
-#   region = var.aws_region
-# }
-
 terraform {
   required_providers {
     aws = {
@@ -13,5 +9,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-2"
+  region = "ap-south-1"
 }
