@@ -1,0 +1,7 @@
+users:
+  - username: Rahul
+    roles: [readonly,developer]
+  - username: Steve
+    roles: [admin,auditor]
+  - username: Tony
+    roles: [developer]
