@@ -18,3 +18,5 @@
 
 # Ignored Terraform files
 *gitignore*.tf
+
+.env
