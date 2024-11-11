@@ -1,0 +1,81 @@
+{
+  "version": 4,
+  "terraform_version": "1.9.8",
+  "serial": 1,
+  "lineage": "31681c5e-7c1f-01a0-c67a-cc0527a33415",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "test_bucket",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::my-tf-test-xxhdlgdjdgkgg",
+            "bucket": "my-tf-test-xxhdlgdjdgkgg",
+            "bucket_domain_name": "my-tf-test-xxhdlgdjdgkgg.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "my-tf-test-xxhdlgdjdgkgg.s3.ap-south-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": false,
+            "grant": [
+              {
+                "id": "78514d58b7c467a70ed67f7b8499af7118de1566eb08f74a21c33d3eb18eb85c",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z11RGJOFQNVJUP",
+            "id": "my-tf-test-xxhdlgdjdgkgg",
+            "lifecycle_rule": [],
+            "logging": [],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "ap-south-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "",
+                        "sse_algorithm": "AES256"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": null,
+            "tags_all": {},
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": false,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
